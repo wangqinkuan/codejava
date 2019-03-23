@@ -3,7 +3,7 @@ package convertMoney;
 import org.junit.BeforeClass;
 import org.junit.Test;
 
-public class Entry {
+public class ConvertTest {
 
     public static Convert convert;
 

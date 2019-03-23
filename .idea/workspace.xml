@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cad95086-44ef-4ae4-b018-2efdaaa26c2f" name="Default Changelist" comment="" />
+    <list default="true" id="cad95086-44ef-4ae4-b018-2efdaaa26c2f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/src/convertMoney/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertMoney/ConvertTest.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,10 +14,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/convertMoney/Entry.java">
+        <entry file="file://$PROJECT_DIR$/src/convertMoney/ConvertTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-18">
-              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+            <state relative-caret-position="-230">
+              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#713#714#0" expanded="true" />
@@ -52,12 +54,18 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/convertMoney/ConvertMoney.java" />
         <option value="$PROJECT_DIR$/src/convertMoney/Entry.java" />
         <option value="$PROJECT_DIR$/src/convertMoney/Convert.java" />
+        <option value="$PROJECT_DIR$/src/convertMoney/Test.java" />
+        <option value="$PROJECT_DIR$/src/convertMoney/TestEntry.java" />
+        <option value="$PROJECT_DIR$/src/convertMoney/ConvertTest.java" />
       </list>
     </option>
   </component>
@@ -67,6 +75,7 @@
     <option name="width" value="1300" />
     <option name="height" value="691" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -105,7 +114,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553326675276" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553327293408" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -124,9 +133,9 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.Entry">
-    <configuration name="Entry" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="convertMoney.Entry" />
+  <component name="RunManager" selected="JUnit.ConvertTest">
+    <configuration name="ConvertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="convertMoney.ConvertTest" />
       <module name="softwaretest" />
       <extension name="coverage">
         <pattern>
@@ -138,7 +147,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entry" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConvertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softwaretest" />
       <extension name="coverage">
         <pattern>
@@ -147,13 +156,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="convertMoney" />
-      <option name="MAIN_CLASS_NAME" value="convertMoney.Entry" />
+      <option name="MAIN_CLASS_NAME" value="convertMoney.ConvertTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entry.convertToRMBjiaofenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConvertTest.convertToRMBjiaofenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softwaretest" />
       <extension name="coverage">
         <pattern>
@@ -162,14 +171,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="convertMoney" />
-      <option name="MAIN_CLASS_NAME" value="convertMoney.Entry" />
+      <option name="MAIN_CLASS_NAME" value="convertMoney.ConvertTest" />
       <option name="METHOD_NAME" value="convertToRMBjiaofenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Entry.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ConvertTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="softwaretest" />
       <extension name="coverage">
         <pattern>
@@ -178,7 +187,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="convertMoney" />
-      <option name="MAIN_CLASS_NAME" value="convertMoney.Entry" />
+      <option name="MAIN_CLASS_NAME" value="convertMoney.ConvertTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -187,10 +196,10 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Entry" />
-        <item itemvalue="JUnit.Entry.convertToRMBjiaofenTest" />
-        <item itemvalue="JUnit.Entry.test" />
-        <item itemvalue="Application.Entry" />
+        <item itemvalue="JUnit.ConvertTest" />
+        <item itemvalue="JUnit.ConvertTest.convertToRMBjiaofenTest" />
+        <item itemvalue="JUnit.ConvertTest.test" />
+        <item itemvalue="Application.ConvertTest" />
       </list>
     </recent_temporary>
   </component>
@@ -204,7 +213,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553305211754</updated>
-      <workItem from="1553305218625" duration="15228000" />
+      <workItem from="1553305218625" duration="15566000" />
     </task>
     <servers />
   </component>
@@ -241,10 +250,11 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15228000" />
+    <option name="totallyTimeSpent" value="15566000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -261,7 +271,7 @@
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.2943723" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29469123" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892665" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -308,10 +318,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/convertMoney/Entry.java">
+    <entry file="file://$PROJECT_DIR$/src/convertMoney/ConvertTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-18">
-          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+        <state relative-caret-position="-230">
+          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#713#714#0" expanded="true" />
