@@ -1,15 +1,16 @@
-package convertMoney;
+package solutiontest;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
+import solution.ConvertAlaboToRMB;
 
 public class ConvertTest {
 
-    public static Convert convert;
+    public static ConvertAlaboToRMB convert;
 
     @BeforeClass
     public static void init(){
-        convert = new Convert();
+        convert = new ConvertAlaboToRMB();
     }
 
     @Test

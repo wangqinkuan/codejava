@@ -1,4 +1,4 @@
-package convertMoney;
+package solution;
 
 
 /**
@@ -20,7 +20,7 @@ package convertMoney;
  * @date 2019/3/21
  */
 
-public class Convert {
+public class ConvertAlaboToRMB {
 
     private final static String errorInput = "输入错误";
 

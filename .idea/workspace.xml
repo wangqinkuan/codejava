@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cad95086-44ef-4ae4-b018-2efdaaa26c2f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/convertMoney/Entry.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/convertMoney/ConvertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convertMoney/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/ConvertAlaboToRMB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/convertMoney/ConvertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutiontest/ConvertTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,10 +16,10 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/convertMoney/ConvertTest.java">
+        <entry file="file://$PROJECT_DIR$/src/solutiontest/ConvertTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-230">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="108">
+              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="e#713#714#0" expanded="true" />
@@ -28,10 +30,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/convertMoney/Convert.java">
+        <entry file="file://$PROJECT_DIR$/src/solution/ConvertAlaboToRMB.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="794">
-              <caret line="156" column="20" lean-forward="true" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="20" />
+            <state relative-caret-position="378">
+              <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
               <folding>
                 <element signature="method#convertToRMB#0;class#Convert#0" />
                 <element signature="e#2013#2014#0" expanded="true" />
@@ -66,6 +68,7 @@
         <option value="$PROJECT_DIR$/src/convertMoney/Test.java" />
         <option value="$PROJECT_DIR$/src/convertMoney/TestEntry.java" />
         <option value="$PROJECT_DIR$/src/convertMoney/ConvertTest.java" />
+        <option value="$PROJECT_DIR$/src/solution/ConvertTest.java" />
       </list>
     </option>
   </component>
@@ -98,7 +101,13 @@
               <item name="softwaretest" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwaretest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="convertMoney" type="462c0819:PsiDirectoryNode" />
+              <item name="solution" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softwaretest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softwaretest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="solutiontest" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -114,7 +123,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553327293408" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553327555236" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -135,11 +144,11 @@
   </component>
   <component name="RunManager" selected="JUnit.ConvertTest">
     <configuration name="ConvertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="convertMoney.ConvertTest" />
+      <option name="MAIN_CLASS_NAME" value="solutiontest.ConvertTest" />
       <module name="softwaretest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="convertMoney.*" />
+          <option name="PATTERN" value="solutiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -151,12 +160,12 @@
       <module name="softwaretest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="convertMoney.*" />
+          <option name="PATTERN" value="solutiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="convertMoney" />
-      <option name="MAIN_CLASS_NAME" value="convertMoney.ConvertTest" />
+      <option name="PACKAGE_NAME" value="solutiontest" />
+      <option name="MAIN_CLASS_NAME" value="solutiontest.ConvertTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -166,12 +175,12 @@
       <module name="softwaretest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="convertMoney.*" />
+          <option name="PATTERN" value="solutiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="convertMoney" />
-      <option name="MAIN_CLASS_NAME" value="convertMoney.ConvertTest" />
+      <option name="PACKAGE_NAME" value="solutiontest" />
+      <option name="MAIN_CLASS_NAME" value="solutiontest.ConvertTest" />
       <option name="METHOD_NAME" value="convertToRMBjiaofenTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -182,12 +191,12 @@
       <module name="softwaretest" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="convertMoney.*" />
+          <option name="PATTERN" value="solutiontest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="convertMoney" />
-      <option name="MAIN_CLASS_NAME" value="convertMoney.ConvertTest" />
+      <option name="PACKAGE_NAME" value="solutiontest" />
+      <option name="MAIN_CLASS_NAME" value="solutiontest.ConvertTest" />
       <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -213,14 +222,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553305211754</updated>
-      <workItem from="1553305218625" duration="15566000" />
+      <workItem from="1553305218625" duration="15820000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Entry_convertToRMBjiaofenTest - 2019.03.23 at 15h 06m 02s.xml">
-      <configuration name="Entry.convertToRMBjiaofenTest" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="Entry_convertToRMBjiaofenTest - 2019.03.23 at 15h 06m 14s.xml">
       <configuration name="Entry.convertToRMBjiaofenTest" configurationId="JUnit" />
     </history-entry>
@@ -248,13 +254,15 @@
     <history-entry file="Entry - 2019.03.23 at 15h 21m 55s.xml">
       <configuration name="Entry" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="ConvertTest - 2019.03.23 at 15h 48m 28s.xml">
+      <configuration name="ConvertTest" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15566000" />
+    <option name="totallyTimeSpent" value="15820000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Image Layers" />
       <window_info id="Designer" />
@@ -302,10 +310,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/convertMoney/Convert.java">
+    <entry file="file://$PROJECT_DIR$/src/solution/ConvertAlaboToRMB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="794">
-          <caret line="156" column="20" lean-forward="true" selection-start-line="156" selection-start-column="20" selection-end-line="156" selection-end-column="20" />
+        <state relative-caret-position="378">
+          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
           <folding>
             <element signature="method#convertToRMB#0;class#Convert#0" />
             <element signature="e#2013#2014#0" expanded="true" />
@@ -318,10 +326,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/convertMoney/ConvertTest.java">
+    <entry file="file://$PROJECT_DIR$/src/solutiontest/ConvertTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-230">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+        <state relative-caret-position="108">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#713#714#0" expanded="true" />
