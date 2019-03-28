@@ -1,10 +1,10 @@
-package solutiontest;
+package test.softwaretesthomeworktest;
 
 import org.junit.BeforeClass;
 import org.junit.Test;
-import solution.ConvertAlaboToRMB;
+import softwaretesthomework.ConvertAlaboToRMB;
 
-public class ConvertTest {
+public class ConvertAlaboToRMBTest {
 
     public static ConvertAlaboToRMB convert;
 

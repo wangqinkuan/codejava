@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cad95086-44ef-4ae4-b018-2efdaaa26c2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/alogrithm/QuickSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/softwaretesthomework/RMBCapitalFigureTranslator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/alogrithmtest/QuickSortTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/softwaretesthomeworktest/RMBCapitalFigureTranslatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/convertMoney/Convert.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solution/ConvertAlaboToRMB.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/convertMoney/ConvertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/solutiontest/ConvertTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/softwaretest/solution/ConvertAlaboToRMB.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/softwaretest/solutiontest/ConvertTest.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/softwaretest.iml" beforeDir="false" afterPath="$PROJECT_DIR$/codejava.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solution/ConvertAlaboToRMB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/softwaretesthomework/ConvertAlaboToRMB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/solutiontest/ConvertTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/softwaretesthomeworktest/ConvertAlaboToRMBTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,34 +22,23 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/solutiontest/ConvertTest.java">
+        <entry file="file://$PROJECT_DIR$/src/alogrithm/QuickSort.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="108">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#713#714#0" expanded="true" />
-                <element signature="e#751#752#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="-198">
+              <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/solution/ConvertAlaboToRMB.java">
+        <entry file="file://$PROJECT_DIR$/src/test/alogrithmtest/QuickSortTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="378">
-              <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+            <state relative-caret-position="301">
+              <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
               <folding>
-                <element signature="method#convertToRMB#0;class#Convert#0" />
-                <element signature="e#2013#2014#0" expanded="true" />
-                <element signature="e#2052#2053#0" expanded="true" />
-                <element signature="method#convertToRMBUnderYiZhao#0;class#Convert#0" />
-                <element signature="method#convertToRMBUnderYiYi#0;class#Convert#0" />
-                <element signature="method#convertToRMBUnderTenThousand#0;class#Convert#0" />
-                <element signature="method#convertToRMBjiaofen#0;class#Convert#0" />
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,14 +66,19 @@
         <option value="$PROJECT_DIR$/src/convertMoney/TestEntry.java" />
         <option value="$PROJECT_DIR$/src/convertMoney/ConvertTest.java" />
         <option value="$PROJECT_DIR$/src/solution/ConvertTest.java" />
+        <option value="$PROJECT_DIR$/src/solution/RMBCapitalFigureTranslator.java" />
+        <option value="$PROJECT_DIR$/src/solutiontest/RMBCapitalFigureTranslatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/RMBCapitalFigureTranslatorTest.java" />
+        <option value="$PROJECT_DIR$/src/alogrithm/QuickSort.java" />
+        <option value="$PROJECT_DIR$/src/test/alogrithmtest/QuickSortTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="607" />
-    <option name="y" value="291" />
+    <option name="x" value="397" />
+    <option name="y" value="327" />
     <option name="width" value="1300" />
-    <option name="height" value="691" />
+    <option name="height" value="875" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -85,6 +87,7 @@
     </navigator>
     <panes>
       <pane id="PackagesPane" />
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -101,19 +104,18 @@
               <item name="softwaretest" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwaretest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="solution" type="462c0819:PsiDirectoryNode" />
+              <item name="softwaretesthomework" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="softwaretest" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwaretest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="solutiontest" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -123,7 +125,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553327555236" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553765479035" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -142,62 +144,79 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.ConvertTest">
-    <configuration name="ConvertTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="solutiontest.ConvertTest" />
-      <module name="softwaretest" />
+  <component name="RunManager" selected="JUnit.QuickSortTest.test">
+    <configuration name="ConvertAlaboToRMBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codejava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solutiontest.*" />
+          <option name="PATTERN" value="test.softwaretesthomeworktest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ConvertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="softwaretest" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="solutiontest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="solutiontest" />
-      <option name="MAIN_CLASS_NAME" value="solutiontest.ConvertTest" />
+      <option name="PACKAGE_NAME" value="test.softwaretesthomeworktest" />
+      <option name="MAIN_CLASS_NAME" value="test.softwaretesthomeworktest.ConvertAlaboToRMBTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertTest.convertToRMBjiaofenTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="softwaretest" />
+    <configuration name="QuickSortTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codejava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solutiontest.*" />
+          <option name="PATTERN" value="test.alogrithmtest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="solutiontest" />
-      <option name="MAIN_CLASS_NAME" value="solutiontest.ConvertTest" />
-      <option name="METHOD_NAME" value="convertToRMBjiaofenTest" />
+      <option name="PACKAGE_NAME" value="test.alogrithmtest" />
+      <option name="MAIN_CLASS_NAME" value="test.alogrithmtest.QuickSortTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="QuickSortTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codejava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.alogrithmtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.alogrithmtest" />
+      <option name="MAIN_CLASS_NAME" value="test.alogrithmtest.QuickSortTest" />
+      <option name="METHOD_NAME" value="test" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ConvertTest.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="softwaretest" />
+    <configuration name="RMBCapitalFigureTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codejava" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="solutiontest.*" />
+          <option name="PATTERN" value="test.softwaretesthomeworktest.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="solutiontest" />
-      <option name="MAIN_CLASS_NAME" value="solutiontest.ConvertTest" />
-      <option name="METHOD_NAME" value="test" />
+      <option name="PACKAGE_NAME" value="test.softwaretesthomeworktest" />
+      <option name="MAIN_CLASS_NAME" value="test.softwaretesthomeworktest.RMBCapitalFigureTranslatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RMBCapitalFigureTranslatorTest.translateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codejava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.softwaretesthomeworktest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.softwaretesthomeworktest" />
+      <option name="MAIN_CLASS_NAME" value="test.softwaretesthomeworktest.RMBCapitalFigureTranslatorTest" />
+      <option name="METHOD_NAME" value="translateTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -205,10 +224,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ConvertTest" />
-        <item itemvalue="JUnit.ConvertTest.convertToRMBjiaofenTest" />
-        <item itemvalue="JUnit.ConvertTest.test" />
-        <item itemvalue="Application.ConvertTest" />
+        <item itemvalue="JUnit.QuickSortTest.test" />
+        <item itemvalue="JUnit.QuickSortTest" />
+        <item itemvalue="JUnit.RMBCapitalFigureTranslatorTest.translateTest" />
+        <item itemvalue="JUnit.RMBCapitalFigureTranslatorTest" />
+        <item itemvalue="JUnit.ConvertAlaboToRMBTest" />
       </list>
     </recent_temporary>
   </component>
@@ -222,77 +242,81 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1553305211754</updated>
-      <workItem from="1553305218625" duration="15820000" />
+      <workItem from="1553305218625" duration="16334000" />
+      <workItem from="1553487535620" duration="113000" />
+      <workItem from="1553687466096" duration="617000" />
+      <workItem from="1553756017743" duration="2972000" />
+      <workItem from="1553760778482" duration="4999000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Entry_convertToRMBjiaofenTest - 2019.03.23 at 15h 06m 14s.xml">
-      <configuration name="Entry.convertToRMBjiaofenTest" configurationId="JUnit" />
+    <history-entry file="QuickSortTest_quickSortTest - 2019.03.28 at 17h 08m 10s.xml">
+      <configuration name="QuickSortTest.quickSortTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Entry - 2019.03.23 at 15h 06m 27s.xml">
-      <configuration name="Entry" configurationId="JUnit" />
+    <history-entry file="QuickSortTest_test - 2019.03.28 at 17h 20m 54s.xml">
+      <configuration name="QuickSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Entry - 2019.03.23 at 15h 09m 14s.xml">
-      <configuration name="Entry" configurationId="JUnit" />
+    <history-entry file="QuickSortTest_test - 2019.03.28 at 17h 21m 27s.xml">
+      <configuration name="QuickSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Entry - 2019.03.23 at 15h 09m 39s.xml">
-      <configuration name="Entry" configurationId="JUnit" />
+    <history-entry file="QuickSortTest_test - 2019.03.28 at 17h 21m 52s.xml">
+      <configuration name="QuickSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Entry - 2019.03.23 at 15h 15m 44s.xml">
-      <configuration name="Entry" configurationId="JUnit" />
+    <history-entry file="QuickSortTest_test - 2019.03.28 at 17h 22m 44s.xml">
+      <configuration name="QuickSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Entry - 2019.03.23 at 15h 17m 33s.xml">
-      <configuration name="Entry" configurationId="JUnit" />
+    <history-entry file="QuickSortTest_test - 2019.03.28 at 17h 22m 59s.xml">
+      <configuration name="QuickSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Entry - 2019.03.23 at 15h 18m 44s.xml">
-      <configuration name="Entry" configurationId="JUnit" />
+    <history-entry file="QuickSortTest_test - 2019.03.28 at 17h 23m 17s.xml">
+      <configuration name="QuickSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Entry - 2019.03.23 at 15h 20m 39s.xml">
-      <configuration name="Entry" configurationId="JUnit" />
+    <history-entry file="QuickSortTest_test - 2019.03.28 at 17h 23m 38s.xml">
+      <configuration name="QuickSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="Entry - 2019.03.23 at 15h 21m 55s.xml">
-      <configuration name="Entry" configurationId="JUnit" />
+    <history-entry file="QuickSortTest_test - 2019.03.28 at 17h 24m 26s.xml">
+      <configuration name="QuickSortTest.test" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="ConvertTest - 2019.03.23 at 15h 48m 28s.xml">
-      <configuration name="ConvertTest" configurationId="JUnit" />
+    <history-entry file="QuickSortTest_test - 2019.03.28 at 17h 31m 22s.xml">
+      <configuration name="QuickSortTest.test" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15820000" />
+    <option name="totallyTimeSpent" value="25035000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.17537314" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18283582" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32737032" />
-      <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Database Changes" />
-      <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.29469123" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.29144096" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.39892665" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Maven" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="Database" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info anchor="bottom" id="Event Log" order="11" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="12" weight="0.32737032" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Maven" order="6" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="right" id="Palette&#9;" order="8" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -310,31 +334,72 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solution/ConvertAlaboToRMB.java">
+    <entry file="file://$PROJECT_DIR$/src/softwaretesthomework/ConvertAlaboToRMB.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="36" column="22" lean-forward="true" selection-start-line="36" selection-start-column="22" selection-end-line="36" selection-end-column="22" />
+        <state relative-caret-position="-611">
+          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/softwaretesthomework/RMBCapitalFigureTranslator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3132">
+          <caret line="180" column="1" selection-start-line="180" selection-start-column="1" selection-end-line="180" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/softwaretesthomeworktest/RMBCapitalFigureTranslatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
           <folding>
-            <element signature="method#convertToRMB#0;class#Convert#0" />
-            <element signature="e#2013#2014#0" expanded="true" />
-            <element signature="e#2052#2053#0" expanded="true" />
-            <element signature="method#convertToRMBUnderYiZhao#0;class#Convert#0" />
-            <element signature="method#convertToRMBUnderYiYi#0;class#Convert#0" />
-            <element signature="method#convertToRMBUnderTenThousand#0;class#Convert#0" />
-            <element signature="method#convertToRMBjiaofen#0;class#Convert#0" />
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/solutiontest/ConvertTest.java">
+    <entry file="file://$PROJECT_DIR$/src/test/softwaretesthomeworktest/ConvertAlaboToRMBTest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="108">
           <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#713#714#0" expanded="true" />
-            <element signature="e#751#752#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/lib/src.zip!/java.base/java/util/Random.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="314">
+          <caret line="378" column="67" lean-forward="true" selection-start-line="378" selection-start-column="14" selection-end-line="378" selection-end-column="67" />
+          <folding>
+            <element signature="e#11994#11995#0" expanded="true" />
+            <element signature="e#12025#12026#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/lib/src.zip!/java.base/java/lang/System.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="134">
+          <caret line="373" column="47" selection-start-line="373" selection-start-column="34" selection-end-line="373" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/alogrithmtest/QuickSortTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="301">
+          <caret line="19" column="37" selection-start-line="19" selection-start-column="37" selection-end-line="19" selection-end-column="37" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alogrithm/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-198">
+          <caret line="37" column="31" lean-forward="true" selection-start-line="37" selection-start-column="31" selection-end-line="37" selection-end-column="31" />
         </state>
       </provider>
     </entry>
