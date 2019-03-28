@@ -94,10 +94,24 @@ public class QuickSort {
      * @param len           生成数组长度
      * @return
      */
-    public static int[] generateArray(int lowLimit,int highLimit,int len){
+    public static int[] generateRandomArray(int lowLimit, int highLimit, int len){
         Random r = new Random();
         int[] array = new int[len];
         for(int i = 0;i < len ;i++) array[i] = r.nextInt(highLimit - lowLimit + 1) + lowLimit;
+        return array;
+    }
+
+    /**
+     * 生成起始位start 长度为len的顺序数组
+     * @param start
+     * @param len
+     * @return
+     */
+    public static int[] generateOrderedArray(int start,int len){
+        int[] array = new int[len];
+        for(int i = 0 ;i < len ;i++){
+            array[i] = start ++;
+        }
         return array;
     }
 }

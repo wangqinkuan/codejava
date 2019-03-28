@@ -17,8 +17,15 @@ public class QuickSortTest {
 
     @Test
     public void test(){
-        int[] a1 = QuickSort.generateArray(1,100,10);
+        //生成随机数组
+        int[] a1 = QuickSort.generateRandomArray(1,100,1000);
         int[] a2 = Arrays.copyOf(a1,a1.length);
+        quickSortTest(a1);
+        randomQuickSortTest(a2);
+
+        //生成顺序数组
+        a1 = QuickSort.generateOrderedArray(1,1000);
+        a2 = Arrays.copyOf(a1,a1.length);
         quickSortTest(a1);
         randomQuickSortTest(a2);
     }
