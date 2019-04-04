@@ -74,44 +74,5 @@ public class QuickSort {
         return parition(array,start,end);
     }
 
-    /**
-     * 打印数组
-     * @param array
-     */
-    public static void printArray(int[] array){
-        int len = array.length;
-        for(int i = 0 ;i < len ;i++){
-            System.out.print(array[i]);
-            if(i != len - 1) System.out.print(',');
-            else System.out.print('\n');
-        }
-    }
 
-    /**
-     * 生成区间[lowLimit,highLimit]内的整形随机数数组
-     * @param lowLimit      生成数下界
-     * @param highLimit     生成数上界
-     * @param len           生成数组长度
-     * @return
-     */
-    public static int[] generateRandomArray(int lowLimit, int highLimit, int len){
-        Random r = new Random();
-        int[] array = new int[len];
-        for(int i = 0;i < len ;i++) array[i] = r.nextInt(highLimit - lowLimit + 1) + lowLimit;
-        return array;
-    }
-
-    /**
-     * 生成起始位start 长度为len的顺序数组
-     * @param start
-     * @param len
-     * @return
-     */
-    public static int[] generateOrderedArray(int start,int len){
-        int[] array = new int[len];
-        for(int i = 0 ;i < len ;i++){
-            array[i] = start ++;
-        }
-        return array;
-    }
 }

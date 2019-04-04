@@ -68,8 +68,8 @@ public class ConvertAlaboToRMBTest {
     @Test
     public void convertTest(){
         System.out.println("----------------------------最终效果测试  begin----------------------------");
-        test03("￥33");
-        test03("￥000");
+        test03("￥3.3");
+        test03("￥00.00");
         test03("￥00033");
         test03("￥00033");
         test03("6");

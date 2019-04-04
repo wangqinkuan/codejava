@@ -2,9 +2,20 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cad95086-44ef-4ae4-b018-2efdaaa26c2f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/alogrithm/MinDiffInBST.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ds/TreeNode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/alogrithmtest/MinDiffInBSTTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/ArrayUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/util/TreeUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codejava/alogrithm/QuickSort.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codejava/alogrithm/QuickSort.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codejava/test/alogrithmtest/QuickSortTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codejava/test/alogrithmtest/QuickSortTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codejava/test/softwaretesthomeworktest/ConvertAlaboToRMBTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codejava/test/softwaretesthomeworktest/ConvertAlaboToRMBTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/codejava/test/softwaretesthomeworktest/RMBCapitalFigureTranslatorTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/codejava/test/softwaretesthomeworktest/RMBCapitalFigureTranslatorTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/alogrithm/QuickSort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/alogrithm/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/alogrithmtest/QuickSortTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/alogrithmtest/QuickSortTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/softwaretesthomeworktest/ConvertAlaboToRMBTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/softwaretesthomeworktest/ConvertAlaboToRMBTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/softwaretesthomeworktest/RMBCapitalFigureTranslatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/softwaretesthomeworktest/RMBCapitalFigureTranslatorTest.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,19 +27,46 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/alogrithm/QuickSort.java">
+        <entry file="file://$PROJECT_DIR$/src/test/alogrithmtest/MinDiffInBSTTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="133">
-              <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+            <state relative-caret-position="82">
+              <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/alogrithmtest/QuickSortTest.java">
+        <entry file="file://$PROJECT_DIR$/src/util/TreeUtil.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="143">
-              <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+            <state relative-caret-position="582">
+              <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/alogrithm/MinDiffInBST.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="225">
+              <caret line="47" column="53" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="53" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/util/ArrayUtil.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="101" column="31" lean-forward="true" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -61,14 +99,21 @@
         <option value="$PROJECT_DIR$/src/solution/RMBCapitalFigureTranslator.java" />
         <option value="$PROJECT_DIR$/src/solutiontest/RMBCapitalFigureTranslatorTest.java" />
         <option value="$PROJECT_DIR$/src/test/RMBCapitalFigureTranslatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/softwaretesthomeworktest/RMBCapitalFigureTranslatorTest.java" />
+        <option value="$PROJECT_DIR$/src/test/softwaretesthomeworktest/ConvertAlaboToRMBTest.java" />
+        <option value="$PROJECT_DIR$/src/ds/TreeNode.java" />
         <option value="$PROJECT_DIR$/src/alogrithm/QuickSort.java" />
         <option value="$PROJECT_DIR$/src/test/alogrithmtest/QuickSortTest.java" />
+        <option value="$PROJECT_DIR$/src/alogrithm/MinDiffInBST.java" />
+        <option value="$PROJECT_DIR$/src/util/TreeUtil.java" />
+        <option value="$PROJECT_DIR$/src/util/ArrayUtil.java" />
+        <option value="$PROJECT_DIR$/src/test/alogrithmtest/MinDiffInBSTTest.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
+    <option name="x" value="439" />
+    <option name="y" value="160" />
     <option name="width" value="1382" />
     <option name="height" value="744" />
   </component>
@@ -94,7 +139,26 @@
               <item name="softwaretest" type="b2602c69:ProjectViewProjectNode" />
               <item name="softwaretest" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="alogrithm" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softwaretest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softwaretest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softwaretest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softwaretest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="alogrithmtest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="softwaretest" type="b2602c69:ProjectViewProjectNode" />
+              <item name="softwaretest" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -111,7 +175,7 @@
     <property name="Repository.Attach.Sources" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1553773147174" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554378862392" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -130,8 +194,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.QuickSortTest.test">
-    <configuration name="ConvertAlaboToRMBTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.MinDiffInBSTTest">
+    <configuration name="ConvertAlaboToRMBTest.convertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codejava" />
       <extension name="coverage">
         <pattern>
@@ -141,6 +205,22 @@
       </extension>
       <option name="PACKAGE_NAME" value="test.softwaretesthomeworktest" />
       <option name="MAIN_CLASS_NAME" value="test.softwaretesthomeworktest.ConvertAlaboToRMBTest" />
+      <option name="METHOD_NAME" value="convertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MinDiffInBSTTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="codejava" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.alogrithmtest.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test.alogrithmtest" />
+      <option name="MAIN_CLASS_NAME" value="test.alogrithmtest.MinDiffInBSTTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -179,21 +259,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RMBCapitalFigureTranslatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="codejava" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.softwaretesthomeworktest.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test.softwaretesthomeworktest" />
-      <option name="MAIN_CLASS_NAME" value="test.softwaretesthomeworktest.RMBCapitalFigureTranslatorTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RMBCapitalFigureTranslatorTest.translateTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="codejava" />
       <extension name="coverage">
@@ -211,19 +276,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.ConvertAlaboToRMBTest" />
       <item itemvalue="JUnit.QuickSortTest" />
       <item itemvalue="JUnit.QuickSortTest.test" />
-      <item itemvalue="JUnit.RMBCapitalFigureTranslatorTest" />
       <item itemvalue="JUnit.RMBCapitalFigureTranslatorTest.translateTest" />
+      <item itemvalue="JUnit.ConvertAlaboToRMBTest.convertTest" />
+      <item itemvalue="JUnit.MinDiffInBSTTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.MinDiffInBSTTest" />
+        <item itemvalue="JUnit.ConvertAlaboToRMBTest.convertTest" />
+        <item itemvalue="JUnit.RMBCapitalFigureTranslatorTest.translateTest" />
         <item itemvalue="JUnit.QuickSortTest.test" />
         <item itemvalue="JUnit.QuickSortTest" />
-        <item itemvalue="JUnit.RMBCapitalFigureTranslatorTest.translateTest" />
-        <item itemvalue="JUnit.RMBCapitalFigureTranslatorTest" />
-        <item itemvalue="JUnit.ConvertAlaboToRMBTest" />
       </list>
     </recent_temporary>
   </component>
@@ -243,50 +308,54 @@
       <workItem from="1553756017743" duration="2972000" />
       <workItem from="1553760778482" duration="4999000" />
       <workItem from="1553771270608" duration="39000" />
-      <workItem from="1553771643293" duration="1674000" />
+      <workItem from="1553771643293" duration="2698000" />
+      <workItem from="1553785857254" duration="46000" />
+      <workItem from="1554123065955" duration="4687000" />
+      <workItem from="1554168590435" duration="1560000" />
+      <workItem from="1554286272269" duration="3270000" />
+      <workItem from="1554371304218" duration="6288000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="QuickSortTest_test - 2019.03.28 at 19h 24m 48s.xml">
-      <configuration name="QuickSortTest.test" configurationId="JUnit" />
+    <history-entry file="MinDiffInBSTTest - 2019.04.04 at 18h 49m 53s.xml">
+      <configuration name="MinDiffInBSTTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSortTest_test - 2019.03.28 at 19h 30m 56s.xml">
-      <configuration name="QuickSortTest.test" configurationId="JUnit" />
+    <history-entry file="MinDiffInBSTTest - 2019.04.04 at 18h 56m 31s.xml">
+      <configuration name="MinDiffInBSTTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSortTest_test - 2019.03.28 at 19h 31m 10s.xml">
-      <configuration name="QuickSortTest.test" configurationId="JUnit" />
+    <history-entry file="MinDiffInBSTTest - 2019.04.04 at 18h 57m 33s.xml">
+      <configuration name="MinDiffInBSTTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSortTest_test - 2019.03.28 at 19h 31m 41s.xml">
-      <configuration name="QuickSortTest.test" configurationId="JUnit" />
+    <history-entry file="MinDiffInBSTTest - 2019.04.04 at 18h 58m 14s.xml">
+      <configuration name="MinDiffInBSTTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSortTest_test - 2019.03.28 at 19h 32m 13s.xml">
-      <configuration name="QuickSortTest.test" configurationId="JUnit" />
+    <history-entry file="MinDiffInBSTTest - 2019.04.04 at 18h 58m 48s.xml">
+      <configuration name="MinDiffInBSTTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSortTest_test - 2019.03.28 at 19h 32m 50s.xml">
-      <configuration name="QuickSortTest.test" configurationId="JUnit" />
+    <history-entry file="MinDiffInBSTTest - 2019.04.04 at 19h 02m 08s.xml">
+      <configuration name="MinDiffInBSTTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSortTest_test - 2019.03.28 at 19h 33m 53s.xml">
-      <configuration name="QuickSortTest.test" configurationId="JUnit" />
+    <history-entry file="MinDiffInBSTTest - 2019.04.04 at 19h 03m 40s.xml">
+      <configuration name="MinDiffInBSTTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSortTest_test - 2019.03.28 at 19h 34m 54s.xml">
-      <configuration name="QuickSortTest.test" configurationId="JUnit" />
+    <history-entry file="MinDiffInBSTTest - 2019.04.04 at 19h 35m 42s.xml">
+      <configuration name="MinDiffInBSTTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSortTest_test - 2019.03.28 at 19h 35m 32s.xml">
-      <configuration name="QuickSortTest.test" configurationId="JUnit" />
+    <history-entry file="MinDiffInBSTTest - 2019.04.04 at 19h 36m 14s.xml">
+      <configuration name="MinDiffInBSTTest" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="QuickSortTest_test - 2019.03.28 at 19h 37m 10s.xml">
-      <configuration name="QuickSortTest.test" configurationId="JUnit" />
+    <history-entry file="MinDiffInBSTTest - 2019.04.04 at 19h 53m 18s.xml">
+      <configuration name="MinDiffInBSTTest" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="26748000" />
+    <option name="totallyTimeSpent" value="43623000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18835099" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.14072494" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
@@ -295,8 +364,8 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3715221" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39892665" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.34127843" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.26327193" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -332,40 +401,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/softwaretesthomework/ConvertAlaboToRMB.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-611">
-          <caret line="21" lean-forward="true" selection-start-line="21" selection-end-line="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/softwaretesthomework/RMBCapitalFigureTranslator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3132">
-          <caret line="180" column="1" selection-start-line="180" selection-start-column="1" selection-end-line="180" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/softwaretesthomeworktest/RMBCapitalFigureTranslatorTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/softwaretesthomeworktest/ConvertAlaboToRMBTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://D:/java/jdk/lib/src.zip!/java.base/java/util/Random.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="314">
@@ -384,17 +419,113 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/alogrithm/QuickSort.java">
+    <entry file="file://$PROJECT_DIR$/src/softwaretesthomework/RMBCapitalFigureTranslator.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="110" column="35" lean-forward="true" selection-start-line="110" selection-start-column="35" selection-end-line="110" selection-end-column="35" />
+        <state relative-caret-position="1296">
+          <caret line="72" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="e#5809#5810#0" expanded="true" />
+            <element signature="e#5848#5849#0" expanded="true" />
+            <element signature="e#5978#5979#0" expanded="true" />
+            <element signature="e#6014#6015#0" expanded="true" />
+            <element signature="e#6138#6139#0" expanded="true" />
+            <element signature="e#6172#6173#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/softwaretesthomeworktest/RMBCapitalFigureTranslatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="738">
+          <caret line="42" column="22" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/softwaretesthomework/ConvertAlaboToRMB.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/softwaretesthomeworktest/ConvertAlaboToRMBTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="216">
+          <caret line="70" column="19" selection-start-line="70" selection-start-column="19" selection-end-line="70" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://D:/java/jdk/lib/src.zip!/java.base/java/util/List.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-4214">
+          <caret line="137" column="17" selection-start-line="137" selection-start-column="17" selection-end-line="137" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/ds/TreeNode.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="54">
+          <caret line="3" column="11" selection-start-line="3" selection-start-column="11" selection-end-line="3" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/alogrithmtest/QuickSortTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="143">
-          <caret line="19" column="16" lean-forward="true" selection-start-line="19" selection-start-column="16" selection-end-line="19" selection-end-column="16" />
+        <state relative-caret-position="1062">
+          <caret line="61" column="17" selection-start-line="61" selection-start-column="17" selection-end-line="61" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alogrithm/QuickSort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="36">
+          <caret line="2" selection-start-line="2" selection-end-line="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/ArrayUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="101" column="31" lean-forward="true" selection-start-line="101" selection-start-column="31" selection-end-line="101" selection-end-column="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/alogrithm/MinDiffInBST.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="47" column="53" selection-start-line="47" selection-start-column="44" selection-end-line="47" selection-end-column="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/alogrithmtest/MinDiffInBSTTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="82">
+          <caret line="38" column="45" selection-start-line="38" selection-start-column="45" selection-end-line="38" selection-end-column="45" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/util/TreeUtil.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="582">
+          <caret line="69" column="32" selection-start-line="69" selection-start-column="32" selection-end-line="69" selection-end-column="32" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

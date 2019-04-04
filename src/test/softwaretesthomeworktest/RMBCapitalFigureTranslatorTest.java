@@ -39,22 +39,10 @@ public class RMBCapitalFigureTranslatorTest {
 
     @Test
     public void translateTest() {
-//        test03("￥1409.50");
-//        test03("1000");
-//        test03("￥200abc");
-//        test03("￥1111111111111.222");
-//        test03(null);
-//        test03("￥00123.09");
-//        test03("￥.23");
-//        test03("￥10107000");
-//        test03("￥101.00.0");
-        test03("￥-1");
-        test03("-0.01");
-        test03("￥0.00");
-        test03("￥0.01");
-        test03("￥1");
+        test03("￥555.10");
+        test03("￥000.00");
         test03("￥55555.55");
-        test03("￥999999999999.99");
+        test03("￥12345");
     }
 
     private void test03(String s) {
