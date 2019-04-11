@@ -10,6 +10,7 @@ import util.TreeUtil;
 
 
 public class MinDiffInBSTTest {
+
     public static MinDiffInBST minDiffInBST;
 
     @BeforeClass

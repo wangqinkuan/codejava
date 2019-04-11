@@ -6,6 +6,26 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class TreeUtil {
+
+    /**
+     * 通过数组创建树
+     * @param array
+     * @return
+     */
+    public static TreeNode createTreeByArray(Integer[] array){
+        if(array.length == 0) return null;
+        TreeNode[] tree = new TreeNode[array.length];
+        for(int i = 0;i < array.length;i++ ) tree[i] = array[i] == null ? null : new TreeNode(array[i]);
+        for(int i  = 0;i < tree.length >> 1;i ++ ){
+            if(tree[i] != null){
+                int rightIndex = (i+1) << 1,leftIndex = rightIndex - 1;
+                if(array[rightIndex] != null) tree[i].right = tree[rightIndex];
+                if(array[leftIndex] != null) tree[i].left = tree[leftIndex];
+            }
+        }
+        return tree[0];
+    }
+
     /**
      * 通过Integer数组创建BST
      * 输入的数组以及生成的树的结构见题目描述
@@ -75,5 +95,18 @@ public class TreeUtil {
             res.add(root.val);
         }
         return res;
+    }
+
+    /**
+     * 打印树的先序中序后续
+     * @param root
+     */
+    public static void printTree(TreeNode root){
+        System.out.print("先序遍历结果:");
+        ArrayUtil.printArray(preOrder(root));
+        System.out.print("中序遍历结果:");
+        ArrayUtil.printArray(inOrder(root));
+        System.out.print("后序遍历结果:");
+        ArrayUtil.printArray(postOrder(root));
     }
 }
