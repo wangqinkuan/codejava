@@ -1,9 +1,13 @@
 package util;
 
+import ds.RBTreeNode;
 import ds.TreeNode;
+import jdk.nashorn.api.tree.Tree;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 import java.util.List;
+import java.util.Queue;
 
 public class TreeUtil {
 
@@ -108,5 +112,24 @@ public class TreeUtil {
         ArrayUtil.printArray(inOrder(root));
         System.out.print("后序遍历结果:");
         ArrayUtil.printArray(postOrder(root));
+    }
+
+    /**
+     * 画出红黑树
+     */
+    public static void drawRBTree(RBTreeNode root){
+        if(root == null) return;
+        Queue<RBTreeNode> queue = new LinkedList<>();
+        queue.offer(root);
+        while(!queue.isEmpty()){
+            int len = queue.size();
+            for(int i = 0;i < len ;i++){
+                RBTreeNode tmp = queue.poll();
+                System.out.print(String.valueOf(tmp.key) + tmp.color +"  ");
+                if(tmp.left != null) queue.offer(tmp.left);
+                if(tmp.right != null) queue.offer(tmp.right);
+            }
+            System.out.print("\n");
+        }
     }
 }

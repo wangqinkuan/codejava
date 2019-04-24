@@ -5,6 +5,19 @@ import java.util.List;
 import java.util.Random;
 
 public class ArrayUtil {
+
+    /**
+     * 打印二维数组
+     * @param array
+     */
+    public static void printArray2Dim(int[][] array){
+        int len = array.length;
+        for(int i = 0 ;i < len ;i++){
+            printArray(array[i]);
+        }
+    }
+
+
     /**
      * 打印数组
      * @param array

@@ -4,10 +4,8 @@ import alogrithm.MinDepth;
 import ds.TreeNode;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import util.ArrayUtil;
 import util.TreeUtil;
 
-import java.util.List;
 
 public class MinDepthTest {
 
